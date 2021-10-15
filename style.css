@@ -290,8 +290,6 @@ footer, footer i {
 }
 footer i{
   padding: 0.35vw;
-  border-radius: 50%;
-  transition: 0.7s;
 }
 footer i:hover{
   background-color: rgb(82, 88, 139)
