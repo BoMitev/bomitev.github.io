@@ -18,8 +18,9 @@ body {
   margin: 1.5% auto;
   width: 80%;
   padding: 0;
-
-  height: 3000px;
+}
+h2 {
+  font-size: 1.2vw;
 }
 header {
   display: flex;
@@ -136,9 +137,9 @@ main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  row-gap: 8vw;
+  row-gap: 3vw;
   background: url(images/bg.svg) no-repeat;
-  background-position-y: 2vw;
+  background-position-y: 6vw;
   background-position-x: 52vw;
   background-size: 57%;
 }
@@ -149,8 +150,7 @@ main {
   position: relative;
   align-items: center;
   width: 93%;
-  margin: auto;
-  top: 5vw;
+  margin: 10vw auto 8vw;
 }
 .home div:first-of-type{
   display: flex;
@@ -181,11 +181,12 @@ main {
 
 .about {
   display: flex;
-  background-color: rgb(61,64,87);
+  background-color: rgb(54, 57, 80);
   color: #fff;
   overflow: hidden;
   justify-content: space-between;
-  padding: 2.5vw 3.5vw;
+  padding: 1vw 3.5vw;
+  align-items: center
 }
 .about div:first-of-type{
   flex: 1 20%;
@@ -200,4 +201,77 @@ main {
 }
 .about div:nth-of-type(2){
   flex: 1 80%;
+}
+.about div:nth-of-type(2) h3{
+  margin-bottom: 0;
+}
+.about div:nth-of-type(2) i{
+  background-color: rgb(130, 95, 175);
+  border-radius: 50%;
+  padding: 0.4vw;
+  margin-right: 0.5vw;
+}
+
+
+.portfolio {
+  width: 93%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.portfolio article{
+  font-size: 1vw;
+  max-width: 33%;
+  padding: 1vw;
+}
+.portfolio article img{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border: 0.5vw #f1f1f1 solid;
+  border-radius: 40%;
+  box-sizing: border-box;
+  align-items: center;
+  transition: 1s;
+}
+.portfolio article img:hover{
+  border: 0.5vw #999999 solid;
+}
+.contact {
+  width: 50%;
+  margin: auto auto 1vw;
+}
+
+
+.contact input[type=text],input[type=email], textarea {
+  width: 100%;
+  padding: 0.8vw;
+  border: 0.12vw solid #ccc;
+  border-radius: 0.4vw;
+  box-sizing: border-box;
+  margin: 6px auto 16px;
+  resize:none;
+
+}
+
+.contact input[type=text]:focus, input[type=email]:focus, textarea:focus{
+  border: 0.12vw solid rgb(130, 95, 175);
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: rgb(130, 95, 175);
+  color: white;
+  padding: 0.5vw 1vw;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+footer {
+  background-color: rgb(54, 57, 80);
+  height: 3vw;
 }

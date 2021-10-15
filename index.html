@@ -77,8 +77,8 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="social">
@@ -91,17 +91,19 @@
     <main>
         <section class="home">
             <div>
+
                 <p>Hello!</p>
                 <p>I'm Boris Mitev</p>
                 <p>I enjoy creating and developing tech websites</p>
             </div>
-            <div><img src="/images/avatar.png" /></div>
+            <div><img src="./images/avatar.png" /></div>
 
         </section>
 
         <section class="about" id="about">
-            <div><img src="/images/about.jpg" /></div>
+            <div><img src="./images/about.jpg" /></div>
             <div>
+                <h2><i class="fas fa-user-circle"></i>a Bit About Me</h2>
                 <p>Ex-marine engineer with 2 years of merchant vessels experience and more
                     then one year on passengers/leisure ships as engineer. Strong education professional with a Master's
                     degree in Marine Engineering from Technical University of Varna.</p>
@@ -110,10 +112,51 @@
                     combining my skills in Software engineering, which provides development, interesting
                     experiences and personal growth.</p>
             </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <article>
+                <a href="http://borkomitev.atwebpages.com/"><img src="./images/project1.png" /></a>
+                <h2>More than 100 natural wonders in Bulgaria</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro provident dolorum inventore
+                    molestiae iure facilis accusantium laudantium commodi harum? Voluptatem consectetur maiores non,
+                    consequatur expedita eaque molestias adipisci aut!</p>
+            </article>
+            <article>
+                <a href="https://www.portal-silistra.eu/news/5581"><img src="./images/webloz.jpg" /></a>
+                <h2>Sixth national web development competition WebLoz'12</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro provident dolorum inventore
+                    molestiae iure facilis accusantium laudantium commodi harum? Voluptatem consectetur maiores non,
+                    consequatur expedita eaque molestias adipisci aut!</p>
+            </article>
+            <article>
+                <h2>Article 3</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem porro provident dolorum inventore
+                    molestiae iure facilis accusantium laudantium commodi harum? Voluptatem consectetur maiores non,
+                    consequatur expedita eaque molestias adipisci aut!</p>
+            </article>
+        </section>
 
 
+        <section class="contact" id="contact">
+            <h2>Contact me</h2>
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email..">
+
+                <label for="subject">Message</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Send">
+            </form>
         </section>
     </main>
+    <footer>
+        TEST
+    </footer>
 </body>
 
 </html>
