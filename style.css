@@ -218,7 +218,7 @@ main {
 }
 
 
-.portfolio {
+.news {
   width: 93%;
   margin: auto;
   display: flex;
@@ -226,12 +226,15 @@ main {
   justify-content: space-around;
   align-items: flex-start;
 }
-.portfolio article{
+.news article{
   font-size: 1vw;
-  max-width: 33%;
+  width: 30%;
   padding: 1vw;
 }
-.portfolio article img{
+.news i{
+  font-size: 1.3vw;
+}
+.news article img{
   display: block;
   margin: auto;
   width: 70%;
@@ -241,9 +244,11 @@ main {
   align-items: center;
   transition: 1s;
 }
-.portfolio article img:hover{
+.news article img:hover{
   border: 0.5vw #999999 solid;
 }
+
+
 .contact {
   width: 50%;
   margin: auto auto 1vw;
