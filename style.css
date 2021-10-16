@@ -228,6 +228,9 @@ main {
   justify-content: space-around;
   align-items: flex-start;
 }
+.news h3 {
+  margin-top: 1vw;
+}
 .news h3 i{
     background-color: rgb(201, 206, 209);
     border-radius: 50%;
