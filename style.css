@@ -213,11 +213,22 @@ main {
 /* News section */
 .news {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
   width: 93%;
   margin: auto;
+}
+.news div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+.news div:first-of-type i{
+    background-color: rgb(201, 206, 209);
+    border-radius: 50%;
+    padding: 0.4vw;
+    margin-right: 0.5vw;
 }
 .news article {
   font-size: 1vw;
@@ -251,6 +262,7 @@ main {
   border-radius: 50%;
   padding: 0.4vw;
   margin-right: 0.5vw;
+  background-color: rgb(201, 206, 209);
 }
 .contact input[type=text],input[type=email], textarea {
   font-size: 0.8vw;
