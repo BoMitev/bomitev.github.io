@@ -259,6 +259,9 @@ main {
   font-size: 0.9vw;
   float: right;  
 }
+a[href*="udemy"] {
+  color: rgb(91, 73, 139);
+}
 .dropdown p span {
   color: rgb(91, 73, 139);
   font-weight: bold;
@@ -278,7 +281,9 @@ main {
   opacity: 0; 
   height: 0;
 }    
-.dropdown .touch:checked + .slide {height: 12vh;}
+.dropdown .touch:checked + .slide {
+  height: 12vh;
+}
 
 
 
@@ -325,13 +330,9 @@ h4 i{
 .education article i {
   color: green;
 }
-.education ul li {
-  margin-left: 1vw;
-}
 .education li:first-of-type {
-  margin-bottom: 0.8vw;
+  margin-bottom: 0.6vw;
   font-weight: bold;
-  margin: 0;
 }
 .education article div {
   flex-basis: 30%;
