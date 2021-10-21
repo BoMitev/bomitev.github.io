@@ -25,6 +25,7 @@ a {
 }
 h1, h2, h3, h4 {
   font-family: Saira Extra Condensed;
+  letter-spacing: 0.05vw;
 }
 h4 {
   font-size: 1.4vw;
