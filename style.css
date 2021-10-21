@@ -25,7 +25,7 @@ a {
 }
 h1, h2, h3, h4 {
   font-family: Saira Extra Condensed;
-  letter-spacing: 0.05vw;
+  
 }
 h4 {
   font-size: 1.4vw;
@@ -235,7 +235,7 @@ main {
   margin: auto;
 }
 .experience article {
-  width: 55%;
+  width: 60%;
   display: block;
   margin-left: 4vw;
   font-size: 0.8vw;
@@ -246,11 +246,12 @@ main {
   border-bottom: 0.2vw solid #dfdfdf;
   cursor : pointer;
 }
-.experience article div {
+.experience article p {
   font-weight: bold;
   padding-left: 0.5vw;
+  margin: 0;
 }
-.experience article div span{
+.experience article p span{
   float: right;
 }
 .dropdown h4 i{
@@ -258,7 +259,7 @@ main {
   font-size: 0.9vw;
   float: right;  
 }
-.dropdown div span {
+.dropdown p span {
   color: rgb(91, 73, 139);
   font-weight: bold;
   padding-left: 0.5vw;
@@ -320,7 +321,6 @@ h4 i{
   list-style-type: none;
   margin: 1vw 1vw;
   padding: 0;
-  line-height: 1.1vw;
 }
 .education article i {
   color: green;
