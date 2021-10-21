@@ -252,11 +252,10 @@ main {
 .experience article div span{
   float: right;
 }
-.dropdown h4 span{
+.dropdown h4 i{
+  background: none;
   font-size: 0.9vw;
-  float: right;
-  margin: 1vw 0.5vw 0 0;
-  
+  float: right;  
 }
 .dropdown div span {
   color: rgb(91, 73, 139);
