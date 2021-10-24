@@ -254,10 +254,12 @@ main {
 .experience article p span{
   float: right;
 }
-.dropdown h4 i{
-  background: none;
-  font-size: 0.9vw;
-  float: right;  
+.dropdown h4::after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1vw;
+  content: "\f0d9";
+  float: right;
+  margin: 0.6vw;
 }
 a[href*="udemy"] {
   color: rgb(91, 73, 139);
@@ -280,8 +282,11 @@ a[href*="udemy"] {
   position: absolute; 
   opacity: 0; 
   height: 0;
+}
+.dropdown .touch:checked + label h4::after{
+  content: "\f0d7";
 }    
-.dropdown .touch:checked + .slide {
+.dropdown .touch:checked + label + .slide {
   height: 12vh;
 }
 
