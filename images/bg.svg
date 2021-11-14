@@ -2,14 +2,14 @@
 <svg id="shapes" viewBox="40 48 120 80" xmlns="http://www.w3.org/2000/svg" version="1.1">
 <defs> 
 	<linearGradient id="orange-shape" x1="0" x2="1" y1="1" y2="0">
-		<stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>
-		<stop id="stop2" stop-color="rgba(239, 190, 62, 1)" offset="70%"></stop>
+		<stop id="stop1" stop-color="rgba(249, 220, 196, 1)" offset="20%"></stop>
+		<stop id="stop2" stop-color="rgba(201, 173, 167, 1)" offset="80%"></stop>
 	</linearGradient>
 	<linearGradient id="violet-shape" x1="0" x2="1" y1="1" y2="0">
-        <stop id="stop1" stop-color="rgba(184, 34, 199, 1)" offset="0%"></stop>
-        <stop id="stop2" stop-color="rgba(97, 86, 236, 1)" offset="90%"></stop>
+        <stop id="stop1" stop-color="rgba(154, 140, 152, 1)" offset="20%"></stop>
+        <stop id="stop2" stop-color="rgba(74, 78, 105, 1)" offset="80%"></stop>
     </linearGradient>
 </defs>
-<path fill="url(#violet-shape)" d="m 48.6 2.7 c 5.7 1 10.9 6 11.2 11.5 c 0.3 5.5 -4.3 11.6 -6.8 17.9 c -2.6 6.4 -3.1 13 -6.5 18.7 c -3.5 5.7 -10 10.4 -16.5 10.5 c -6.5 0 -13.1 -4.6 -16.4 -10.4 c -3.3 -5.8 -3.3 -12.6 -5.8 -19 c -2.5 -6.4 -7.5 -12.3 -7.4 -17.7 c 0.1 -5.5 5.2 -10.6 11 -11.6 c 5.8 -1 12.2 2.1 18.6 2.1 c 6.4 0 12.8 -3 18.6 -2 z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>
-<path fill="url(#orange-shape)" d="m 49.6 16.3 c 5.9 4.4 13.6 7.4 16.4 12.8 c 2.8 5.4 0.7 13.2 -4.1 17.7 c -4.7 4.5 -12 5.8 -19.4 9.7 c -7.4 4 -14.9 10.6 -22.9 11.1 c -8.1 0.4 -16.8 -5.3 -17.6 -12.7 c -0.9 -7.3 6 -16.4 7.8 -26.3 c 1.8 -10 -1.6 -20.8 1.7 -25.7 c 3.4 -4.8 13.4 -3.8 20.6 -0.3 c 7.2 3.4 11.5 9.3 17.5 13.7 z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>
+<path fill="url(#violet-shape)" d="m 48.6 5.7 c 5.7 1 10.9 6 11.2 11.5 c 0.3 5.5 -4.3 11.6 -6.8 17.9 c -2.6 6.4 -3.1 13 -6.5 18.7 c -3.5 5.7 -10 10.4 -16.5 10.5 c -6.5 0 -13.1 -4.6 -16.4 -10.4 c -3.3 -5.8 -3.3 -12.6 -5.8 -19 c -2.5 -6.4 -7.5 -12.3 -7.4 -17.7 c 0.1 -5.5 5.2 -10.6 11 -11.6 c 5.8 -1 12.2 2.1 18.6 2.1 c 6.4 0 12.8 -3 18.6 -2 z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0"></path>
+<path fill="url(#orange-shape)" d="m 49.6 16.3 c 5.9 4.4 13.6 7.4 16.4 12.8 c 2.8 5.4 0.7 13.2 -4.1 17.7 c -4.7 4.5 -12 5.8 -19.4 9.7 c -7.4 4 -14.9 10.6 -22.9 11.1 c -8.1 0.4 -16.8 -5.3 -17.6 -12.7 c -0.9 -7.3 6 -16.4 7.8 -26.3 c 1.8 -10 -1.6 -20.8 1.7 -25.7 c 3.4 -4.8 13.4 -3.8 20.6 -0.3 c 7.2 3.4 11.5 9.3 17.5 13.7 z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0"></path>
 </svg>
