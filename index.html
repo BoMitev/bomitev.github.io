@@ -12,13 +12,12 @@
 
 <body>
     <header>
-        <div class="left">
+        <article class="left">
             <svg viewBox="0 0 700 700">
                 <path class="stroke"
                     d="m 239.79 58.64 c 53.34 -63.57 148.46 -71.89 212.03 -18.55 c 30.52 25.61 49.3 61.69 53.01 100.9 c 0 0.03 0.03 0.05 0.05 0.04 c 39.44 -3.16 78.41 9.19 108.99 35.04 c 63.5 53.66 70.67 149.07 17.23 212.75 l -231.46 275.85 l -34.47 -28.92 c -19.04 -15.97 -21.53 -44.36 -5.55 -63.4 l 202.82 -241.71 c 21.35 -25.45 18.99 -63.65 -6.14 -85.38 c -25.54 -22.09 -64.29 -18.93 -85.93 6.86 l -347.71 414.38 c -15.98 19.04 -44.36 21.52 -63.4 5.55 l 0 0 c -19.04 -15.98 -21.52 -44.36 -5.55 -63.4 l 347.09 -413.64 c 21.35 -25.45 18.99 -63.65 -6.14 -85.38 c -25.54 -22.09 -64.29 -18.93 -85.93 6.86 l -203.44 242.46 c -15.98 19.04 -44.36 21.52 -63.4 5.55 l -34.47 -28.93 l 232.37 -276.93 z" />
-            </svg><svg viewBox="0 0 204.94 29.5"">
-            <path
-                d=" m 7.23 29.75 c -0.5 0 -1.05 0 -1.64 0 s -1.17 -0.06 -1.76 -0.11 s -1.17 -0.11 -1.75 -0.18 a 13.14
+            </svg><svg viewBox="0 0 204.94 29.5">
+                <path d=" m 7.23 29.75 c -0.5 0 -1.05 0 -1.64 0 s -1.17 -0.06 -1.76 -0.11 s -1.17 -0.11 -1.75 -0.18 a 13.14
                 13.14 0 0 1 -1.58 -0.33 v -24.19 a 15.46 15.46 0 0 1 1.58 -0.29 c 0.58 -0.07 1.16 -0.13 1.75 -0.18 s
                 1.17 -0.08 1.75 -0.1 s 1.11 0 1.62 0 a 24.63 24.63 0 0 1 4.05 0.32 a 10.4 10.4 0 0 1 3.27 1.1 a 6 6 0 0
                 1 2.18 2 a 5.68 5.68 0 0 1 0.79 3.09 a 5.52 5.52 0 0 1 -1 3.37 a 5.87 5.87 0 0 1 -2.59 2 a 7.55 7.55 0 0
@@ -72,36 +71,44 @@
                 2.82 2 a 9.17 9.17 0 0 1 1.82 3.12 a 11.92 11.92 0 0 1 0.62 4.05 z m -3.5 0 a 8 8 0 0 0 -1.42 -5 a 5 5 0
                 0 0 -7.74 0 a 8 8 0 0 0 -1.42 5 a 8 8 0 0 0 1.42 5 a 5 5 0 0 0 7.74 0 a 8 8 0 0 0 1.42 -5 z" />
             </svg>
-        </div>
-        <div class="right">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#news">Accomplishments</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+        </article>
+        <article class="right">
+            <button class="nav-bar-toggle-button" type="button"></button>
+            <div class="nav-toggle">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#news">Accomplishments</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
             <div class="social">
                 <a href="https://www.linkedin.com/in/boris-mitev-87a7b4202/"><i class="fab fa-linkedin-in"></i></a><a
                     href="https://github.com/BoMitev"><i class="fab fa-github"></i></a>
             </div>
+        </article>
     </header>
     <main>
         <section class="home">
-            <div>
+            <article class="intro-text">
                 <h1>Hello!</h1>
                 <h3>I'm Boris <span>Mitev</span></h3>
                 <h2>I enjoy creating and developing tech websites</h2>
-            </div>
-            <div><img src="./images/avatar.png" /></div>
+            </article>
+            <article class="intro-image">
+                <img src="./images/avatar.png" />
+            </article>
         </section>
 
         <section class="about" id="about">
-            <div><img src="./images/about.jpg" /></div>
-            <div>
+            <article class="about-image">
+                <img src="./images/about.jpg" />
+            </article>
+            <article class="about-text">
                 <h4><i class="fas fa-user-circle"></i>A BIT ABOUT ME</h4>
                 <p>Ex-marine engineer with 2 years of merchant vessels experience and more
                     then one year on passengers/leisure ships as engineer. Strong education professional with a Master's
@@ -114,7 +121,7 @@
                     combining my skills in Software engineering, which provides development, interesting
                     experiences and personal growth.</p>
                 <span>“There is not a ceiling that people can reach in life.”</span>
-            </div>
+            </article>
         </section>
 
         <section class="experience" id="experience">
@@ -243,7 +250,9 @@
                     <ul>
                         <li>Python Web Development:</li>
                         <li><i class="fas fa-sync-alt"></i> Python OOP - October</li>
-                        <li><i class="fas fa-check"></i> <a href="https://softuni.bg/certificates/details/114166/20bbc9de">Python Advanced - September</a></li>
+                        <li><i class="fas fa-check"></i> <a
+                                href="https://softuni.bg/certificates/details/114166/20bbc9de">Python Advanced -
+                                September</a></li>
                         <li><i class="fas fa-check"></i> <a
                                 href="https://softuni.bg/certificates/details/110936/36a5ba0a">Programing Fundamentals -
                                 May</a></li>
@@ -253,8 +262,7 @@
                     </ul>
                     <ul>
                         <li>Front-End Development:</li>
-                        <li><i class="fas fa-check"></i> <a
-                                href="https://softuni.bg/certificates/details/117637/cc466fcb"> HTML & CSS</a></li>
+                        <li><i class="fas fa-sync-alt"></i> HTML & CSS</li>
 
                     </ul>
                     <p>Average grade: 6.00</p>
@@ -293,7 +301,7 @@
         </section>
 
         <section class="news" id="news">
-            <h4><i class="far fa-newspaper"></i>Accomplishments</h4>
+            <h4><i class="far fa-newspaper"></i>ACCOMPLISHMENTS</h4>
             <div>
                 <article>
                     <span class="title"><a href="http://borkomitev.atwebpages.com/"><img
