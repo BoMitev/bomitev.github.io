@@ -69,7 +69,7 @@ header {
 .right {
   display: flex;
   align-items: center;
-  margin-top: 2.5%;
+  margin-top: 2.4%;
   margin-bottom: 0.8%;
 }
 
@@ -118,7 +118,7 @@ header {
 .left svg:nth-of-type(2) {
   width: 10vw;
   margin-left: 1vw;
-  margin-bottom: 0.5vw;
+  margin-bottom: 1vw;
 }
 
 header .nav-bar-toggle-button {
