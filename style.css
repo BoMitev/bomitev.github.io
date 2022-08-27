@@ -332,7 +332,7 @@ h3 {
 .dropdown h4::after {
   font-family: "Font Awesome 5 Free";
   font-size: 1vw;
-  content: "\f0d9";
+  content: "\f0d7";
   float: right;
   margin: 0.6vw;
 }
@@ -354,7 +354,8 @@ a[href*="udemy"] {
   overflow: hidden;
   transition: height .4s ease;
   list-style-type: none;
-  padding: 0 0 0 0.8vw;
+  padding: 1.7vh 0 0 0.8vw;
+  margin: 0;
 }
 
 .dropdown .touch {
@@ -364,19 +365,26 @@ a[href*="udemy"] {
 }
 
 .dropdown .touch:checked+label h4::after {
-  content: "\f0d7";
+  content: "\f0d8";
+}
+
+.dropdown .touch:checked+label h4{
+  background-color: #F0F0F0
+}
+
+.dropdown .touch:checked+label p{
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
 }
 
 .dropdown .touch:checked+label+.slide {
   height: 12vh;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #dfdfdf 50%, rgba(0, 0, 0, 0)) 1 100%;
+  border-top: 0;
+  padding-top: 1.7vh;
 }
-
-
-
-
-
-
-
 
 
 /* Education section */
