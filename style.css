@@ -499,6 +499,7 @@ h4 i {
 .contact input[type=text],
 input[type=email],
 textarea {
+  font-family: Roboto, sans-serif;
   font-size: 0.8vw;
   width: 100%;
   padding: 0.8vw;
