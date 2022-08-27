@@ -355,7 +355,7 @@ a[href*="udemy"] {
   clear: both;
   height: 0;
   overflow: hidden;
-  transition: height .4s ease;
+  transition: height .7s ease;
   list-style-type: none;
   padding: 1.7vh 0 0 0.8vw;
   margin: 0;
