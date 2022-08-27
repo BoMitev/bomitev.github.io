@@ -311,6 +311,10 @@ h3 {
 }
 
 .experience article h4 {
+  background-image: linear-gradient(90deg, rgba(235,235,235,1) 35%, rgba(255,255,255,1) 100%);
+  background-size: 0 100%;
+  transition: .4s;
+  background-repeat: no-repeat;
   text-transform: uppercase;
   padding-left: 0.5vw;
   border-bottom: 0.2vw solid #dfdfdf;
@@ -374,8 +378,9 @@ a[href*="udemy"] {
 }
 
 .dropdown .touch:checked+label h4{
-  background-color: #F0F0F0
+  background-size: 100% 100%;
 }
+
 
 .dropdown .touch:checked+label p{
   border-left: 1px solid #dfdfdf;
@@ -485,6 +490,7 @@ h4 i {
   border-radius: 50%;
   box-sizing: border-box;
   margin: 0 auto;
+  transition: .5s;
 }
 
 .news img {
