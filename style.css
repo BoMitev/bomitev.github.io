@@ -350,9 +350,10 @@ h3 {
 .dropdown h4::after {
   font-family: "Font Awesome 5 Free";
   font-size: 1vw;
-  content: "\f0d7";
+  content: "\f0d9";
   float: right;
   margin: 0.5vw;
+  transition: ease .2s;
 }
 
 
@@ -382,7 +383,8 @@ h3 {
 }
 
 .dropdown .touch:checked+label h4::after {
-  content: "\f0d8";
+  /*content: "\f0d8";*/
+  transform: rotate(-45deg);
 }
 
 .dropdown .touch:checked+label h4{
