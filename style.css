@@ -6,6 +6,10 @@ html {
   background: rgb(200, 213, 220);
   scroll-behavior: smooth;
   scroll-padding-top: 10%;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 body {
